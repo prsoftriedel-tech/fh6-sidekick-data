@@ -1,0 +1,20 @@
+{
+  "title": "Aktuelle Saison",
+  "series": "Online Series",
+  "season": "Spring",
+  "subtitle": "Automatisch aus Online-Daten geladen",
+  "progress": 42,
+  "rewards": [
+    "15 Punkte · Saisonbelohnung",
+    "30 Punkte · zweite Saisonbelohnung"
+  ],
+  "tasks": [
+    "Weekly Challenge · online pflegen",
+    "Daily Challenge · täglich aktualisieren",
+    "Photo Challenge · aktuelles Thema"
+  ],
+  "championships": [
+    "Seasonal Championship · Klasse / Reward",
+    "PR Stunt · Zielwert / Klasse"
+  ]
+}
