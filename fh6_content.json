@@ -1,0 +1,56 @@
+{
+  "season": {
+    "title": "Aktuelle Saison",
+    "series": "Online Series",
+    "season": "Spring",
+    "subtitle": "Automatisch aus Online-Feed geladen",
+    "progress": 42,
+    "rewards": [
+      "15 Punkte · Saisonbelohnung",
+      "30 Punkte · zweite Saisonbelohnung"
+    ],
+    "tasks": [
+      "Weekly Challenge · online pflegen",
+      "Daily Challenge · täglich aktualisieren",
+      "Photo Challenge · aktuelles Thema",
+      "Treasure Hunt · aktueller Hinweis"
+    ],
+    "championships": [
+      "Seasonal Championship · Klasse / Reward",
+      "PR Stunt · Zielwert / Klasse",
+      "Rivals · Clean Lap"
+    ]
+  },
+  "events": [
+    {
+      "title": "Sakura Sprint",
+      "type": "Straßenrennen",
+      "status": "Aktiv",
+      "time": "Noch 2T 8H"
+    },
+    {
+      "title": "Team Challenge",
+      "type": "Trial",
+      "status": "Aktiv",
+      "time": "Noch 2T 8H"
+    }
+  ],
+  "news": [
+    {
+      "title": "Online Edition aktiv",
+      "body": "Inhalte können jetzt per JSON aktualisiert werden."
+    }
+  ],
+  "tips": [
+    {
+      "category": "Anfänger",
+      "title": "Slow in, fast out",
+      "body": "Bremse vor der Kurve und beschleunige sauber am Ausgang."
+    }
+  ],
+  "dailyChallenges": [
+    "Daily 1 · saubere Runde",
+    "Daily 2 · Skill-Kette",
+    "Daily 3 · Saisonrennen"
+  ]
+}
