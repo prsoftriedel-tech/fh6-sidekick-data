@@ -1,12 +1,42 @@
 [
   {
-    "category": "Anfänger",
-    "title": "Slow in, fast out",
-    "body": "Bremse vor der Kurve und beschleunige sauber am Ausgang."
+    "category": "Saison",
+    "title": "Saisonpunkte priorisieren",
+    "body": "Erledige zuerst Aufgaben mit vielen Playlist-Punkten, bevor du normale Rennen fährst."
   },
   {
-    "category": "Saison",
-    "title": "Belohnungen zuerst",
-    "body": "Erledige zeitlich begrenzte Saisonaufgaben zuerst."
+    "category": "Weekly Challenge",
+    "title": "Kapitel der Reihe nach machen",
+    "body": "Weekly Challenges zählen meist nur, wenn du das richtige Fahrzeug aktiv fährst und die Kapitel nacheinander abgeschlossen werden."
+  },
+  {
+    "category": "Photo Challenge",
+    "title": "Ort und Fahrzeug prüfen",
+    "body": "Wenn die Fotoaufgabe nicht zählt, kontrolliere Fahrzeugklasse, Modell und Gebiet."
+  },
+  {
+    "category": "Treasure Hunt",
+    "title": "Hinweis wörtlich nehmen",
+    "body": "Die Schatzsuche verlangt oft eine bestimmte Aktion mit einem passenden Fahrzeug, bevor die Truhe erscheint."
+  },
+  {
+    "category": "Garage",
+    "title": "Favoriten pflegen",
+    "body": "Markiere seltene Fahrzeuge als Favoriten, damit du sie bei Events schneller findest."
+  },
+  {
+    "category": "Forzathon Shop",
+    "title": "Punkte sparen",
+    "body": "Kaufe zuerst exklusive Fahrzeuge. Kleidung und Wheelspins kommen meist wieder."
+  },
+  {
+    "category": "Rivals",
+    "title": "Saubere Runde zählt",
+    "body": "Für monatliche Rivals brauchst du meist nur eine saubere Runde."
+  },
+  {
+    "category": "PR-Stunts",
+    "title": "Anlauf verlängern",
+    "body": "Bei Speed Traps und Danger Signs hilft ein langer gerader Anlauf oft mehr als maximales Tuning."
   }
 ]

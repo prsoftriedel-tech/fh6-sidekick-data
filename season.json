@@ -1,20 +1,28 @@
 {
   "title": "Aktuelle Saison",
-  "series": "Online Series",
+  "series": "Series 1",
   "season": "Spring",
-  "subtitle": "Automatisch aus Online-Daten geladen",
+  "subtitle": "Remote gepflegte Saisonübersicht",
   "progress": 42,
   "rewards": [
-    "15 Punkte · Saisonbelohnung",
-    "30 Punkte · zweite Saisonbelohnung"
+    "20 Punkte · Saisonfahrzeug",
+    "40 Punkte · Exklusives Fahrzeug",
+    "80 Punkte · Series Reward",
+    "160 Punkte · Series Reward"
   ],
   "tasks": [
-    "Weekly Challenge · online pflegen",
-    "Daily Challenge · täglich aktualisieren",
-    "Photo Challenge · aktuelles Thema"
+    "Weekly Challenge · 4 Kapitel abschließen",
+    "Daily Challenges · täglich neue Aufgabe",
+    "Photo Challenge · Foto am aktuellen Ort aufnehmen",
+    "Treasure Hunt · Hinweis lösen und Truhe finden",
+    "EventLab · Community-Rennen abschließen"
   ],
   "championships": [
-    "Seasonal Championship · Klasse / Reward",
-    "PR Stunt · Zielwert / Klasse"
+    "Seasonal Championship · Straßenrennen · A-Klasse",
+    "Seasonal Championship · Dirt Racing · B-Klasse",
+    "Seasonal Championship · Cross Country · S1-Klasse",
+    "PR Stunt · Speed Trap · Zielwert erreichen",
+    "PR Stunt · Drift Zone · Punktzahl erreichen",
+    "Monthly Rivals · saubere Runde fahren"
   ]
 }

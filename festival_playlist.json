@@ -1,0 +1,43 @@
+{
+  "weeklyChallenge": {
+    "title": "Weekly Challenge",
+    "car": "Saisonfahrzeug / Vorgabe aus Playlist",
+    "reward": "5 Playlist-Punkte",
+    "steps": [
+      "Kapitel 1 · Fahrzeug besitzen und fahren",
+      "Kapitel 2 · ein passendes Rennen gewinnen",
+      "Kapitel 3 · geforderte Skills sammeln",
+      "Kapitel 4 · Abschlussziel erreichen"
+    ]
+  },
+  "photoChallenge": {
+    "title": "Photo Challenge",
+    "location": "Aktueller saisonaler Foto-Ort",
+    "requirement": "Vorgeschriebenes Fahrzeug oder Fahrzeugklasse verwenden",
+    "reward": "ForzaLink / Wheelspin / Playlist-Punkte"
+  },
+  "treasureHunt": {
+    "title": "Treasure Hunt",
+    "hint": "Saison-Hinweis aus der Playlist lösen",
+    "target": "Treasure Chest auf der Karte finden",
+    "reward": "Credits / Forzathon-Punkte / Playlist-Punkte"
+  },
+  "forzathonShop": [
+    {
+      "item": "Exklusives Saisonfahrzeug",
+      "price": "700 FP"
+    },
+    {
+      "item": "Legendäres Fahrzeug",
+      "price": "600 FP"
+    },
+    {
+      "item": "Super Wheelspin",
+      "price": "300 FP"
+    },
+    {
+      "item": "Kleidung / Emote",
+      "price": "75 FP"
+    }
+  ]
+}

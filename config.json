@@ -1,7 +1,19 @@
 {
-  "version": 1,
-  "updated": "2026-07-01T12:00:00Z",
+  "version": 54,
+  "updated": "2026-07-01T17:30:00Z",
   "baseUrl": "https://prsoftriedel-tech.github.io/fh6-sidekick-data/",
-  "adFrequency": 6,
-  "premiumPrice": "2,99 €"
+  "requiredFiles": [
+    "config.json",
+    "season.json",
+    "festival_playlist.json",
+    "events.json",
+    "news.json",
+    "tips.json",
+    "daily.json",
+    "cars.json",
+    "community.json",
+    "premium.json"
+  ],
+  "premiumPrice": "2,99 €",
+  "adFrequency": 6
 }

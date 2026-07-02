@@ -1,0 +1,12 @@
+{
+  "enabled": false,
+  "message": "Community-Funktionen sind vorbereitet. Für echte Profile, Likes und geteilte Garagen wird später Firebase Auth + Firestore benötigt.",
+  "preview": [
+    "Garagen teilen",
+    "Likes",
+    "Fahrzeugbewertungen",
+    "Profile",
+    "Bestenlisten",
+    "Community-Fotos"
+  ]
+}

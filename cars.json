@@ -6,5 +6,45 @@
     "pi": "800",
     "drive": "RWD",
     "rarity": "Rare"
+  },
+  {
+    "brand": "Nissan",
+    "model": "GT-R Black Edition '12",
+    "class": "S1",
+    "pi": "829",
+    "drive": "AWD",
+    "rarity": "Epic"
+  },
+  {
+    "brand": "Mazda",
+    "model": "RX-7 Spirit R '02",
+    "class": "B",
+    "pi": "656",
+    "drive": "RWD",
+    "rarity": "Rare"
+  },
+  {
+    "brand": "Porsche",
+    "model": "911 GT3 RS",
+    "class": "S1",
+    "pi": "874",
+    "drive": "RWD",
+    "rarity": "Epic"
+  },
+  {
+    "brand": "Ferrari",
+    "model": "488 Pista",
+    "class": "S1",
+    "pi": "876",
+    "drive": "RWD",
+    "rarity": "Epic"
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Huracán Performante",
+    "class": "S2",
+    "pi": "932",
+    "drive": "AWD",
+    "rarity": "Legendary"
   }
 ]

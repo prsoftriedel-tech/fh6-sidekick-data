@@ -2,13 +2,43 @@
   {
     "title": "Sakura Sprint",
     "type": "Straßenrennen",
-    "status": "Aktiv",
-    "time": "Noch 2T 8H"
+    "status": "Live",
+    "time": "Noch 2T 8H",
+    "reward": "Saisonpunkte + Credits"
   },
   {
-    "title": "Team Challenge",
-    "type": "Trial",
+    "title": "The Trial",
+    "type": "Team Event",
+    "status": "Live",
+    "time": "Noch 2T 8H",
+    "reward": "Saisonfahrzeug"
+  },
+  {
+    "title": "EventLab Showcase",
+    "type": "Community Event",
+    "status": "Live",
+    "time": "Noch 3T",
+    "reward": "Wheelspin"
+  },
+  {
+    "title": "Drift Zone Challenge",
+    "type": "PR Stunt",
+    "status": "Live",
+    "time": "Noch 3T",
+    "reward": "Super Wheelspin"
+  },
+  {
+    "title": "Cross Country Cup",
+    "type": "Saisonmeisterschaft",
+    "status": "Geplant",
+    "time": "Startet bald",
+    "reward": "Exklusives Fahrzeug"
+  },
+  {
+    "title": "Monthly Rivals",
+    "type": "Rivals",
     "status": "Aktiv",
-    "time": "Noch 2T 8H"
+    "time": "Monatlich",
+    "reward": "Playlist-Punkte"
   }
 ]
