@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FH6 Sidekick Admin</title>
+<style>
+body{margin:0;font-family:Arial,system-ui;background:#080b14;color:white}
+header{padding:22px;background:linear-gradient(135deg,#ff2f7d,#c12bdf)}
+main{padding:18px;max-width:1100px;margin:auto}
+.card{background:rgba(20,27,43,.92);border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:16px;margin:14px 0}
+button,select,input{border:0;border-radius:12px;padding:12px 14px;font-weight:700}
+button{background:#ff2f7d;color:white;cursor:pointer}
+textarea{width:100%;min-height:420px;background:#101827;color:#e8edf7;border:1px solid #3b455f;border-radius:14px;padding:14px;font-family:Consolas,monospace;font-size:14px;box-sizing:border-box}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}
+.small{color:#b8c0d4;font-size:14px}
+a{color:#fff}
+</style>
+</head>
+<body>
+<header>
+<h1>FH6 Sidekick Admin</h1>
+<p>JSON-Dateien bearbeiten, herunterladen und in dein GitHub-Pages-Repository hochladen.</p>
+</header>
+<main>
+<div class="card">
+<h2>Datei auswählen</h2>
+<div class="grid">
+<select id="file">
+<option>config.json</option>
+<option>season.json</option>
+<option>festival_playlist.json</option>
+<option>events.json</option>
+<option>news.json</option>
+<option>tips.json</option>
+<option>daily.json</option>
+<option>cars.json</option>
+<option>community.json</option>
+<option>premium.json</option>
+</select>
+<button onclick="loadTemplate()">Vorlage laden</button>
+<button onclick="formatJson()">JSON formatieren</button>
+<button onclick="downloadJson()">Datei herunterladen</button>
+</div>
+<p class="small">Danach die heruntergeladene Datei in GitHub hochladen/ersetzen. GitHub Pages verteilt sie automatisch an die App.</p>
+</div>
+<div class="card">
+<textarea id="editor"></textarea>
+</div>
+<div class="card">
+<h2>Workflow</h2>
+<ol>
+<li>Datei auswählen.</li>
+<li>Vorlage laden oder bestehendes JSON einfügen.</li>
+<li>Bearbeiten und „JSON formatieren“ klicken.</li>
+<li>Datei herunterladen.</li>
+<li>In GitHub Repository <b>fh6-sidekick-data</b> hochladen/ersetzen.</li>
+<li>In der App „Alle Online-Daten aktualisieren“ antippen.</li>
+</ol>
+</div>
+</main>
+<script>
+const templates = {
+"config.json":{"version":60,"updated":new Date().toISOString(),"baseUrl":"https://prsoftriedel-tech.github.io/fh6-sidekick-data/","premiumPrice":"2,99 €","adFrequency":6},
+"season.json":{"title":"Aktuelle Saison","series":"Series 1","season":"Spring","subtitle":"Remote gepflegte Saisonübersicht","progress":42,"rewards":["20 Punkte · Saisonfahrzeug","40 Punkte · Exklusives Fahrzeug"],"tasks":["Weekly Challenge","Daily Challenges","Photo Challenge","Treasure Hunt"],"championships":["Seasonal Championship","PR Stunt","Rivals"]},
+"festival_playlist.json":{"weeklyChallenge":{"title":"Weekly Challenge","car":"Saisonfahrzeug","reward":"5 Playlist-Punkte","steps":["Kapitel 1","Kapitel 2","Kapitel 3","Kapitel 4"]},"photoChallenge":{"title":"Photo Challenge","location":"Ort","requirement":"Fahrzeugvorgabe","reward":"Belohnung"},"treasureHunt":{"title":"Treasure Hunt","hint":"Hinweis","target":"Ziel","reward":"Belohnung"},"forzathonShop":[{"item":"Fahrzeug","price":"700 FP"}]},
+"events.json":[{"title":"Event","type":"Rennen","status":"Live","time":"Noch 2T","reward":"Belohnung"}],
+"news.json":[{"title":"News Titel","body":"Nachrichtentext"}],
+"tips.json":[{"category":"Kategorie","title":"Tipp Titel","body":"Tipp Text"}],
+"daily.json":["Daily 1 · Aufgabe"],
+"cars.json":[{"brand":"Toyota","model":"Supra RZ '98","class":"A","pi":"800","drive":"RWD","rarity":"Rare"}],
+"community.json":{"enabled":false,"message":"Community benötigt Firebase Auth + Firestore.","preview":["Garagen teilen","Likes","Profile"]},
+"premium.json":{"productId":"remove_ads","price":"2,99 €","features":["Werbung entfernen","Käufe wiederherstellen"]}
+};
+function loadTemplate(){const f=document.getElementById('file').value;editor.value=JSON.stringify(templates[f],null,2);}
+function formatJson(){try{editor.value=JSON.stringify(JSON.parse(editor.value),null,2);}catch(e){alert('JSON Fehler: '+e.message)}}
+function downloadJson(){try{const f=document.getElementById('file').value;const txt=JSON.stringify(JSON.parse(editor.value),null,2);const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([txt],{type:'application/json'}));a.download=f;a.click();}catch(e){alert('JSON Fehler: '+e.message)}}
+loadTemplate();
+</script>
+</body>
+</html>

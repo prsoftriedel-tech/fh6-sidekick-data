@@ -5,9 +5,9 @@
     "body": "Erledige zuerst Aufgaben mit vielen Playlist-Punkten, bevor du normale Rennen fährst."
   },
   {
-    "category": "Weekly Challenge",
-    "title": "Kapitel der Reihe nach machen",
-    "body": "Weekly Challenges zählen meist nur, wenn du das richtige Fahrzeug aktiv fährst und die Kapitel nacheinander abgeschlossen werden."
+    "category": "Saison",
+    "title": "Weekly zuerst abschließen",
+    "body": "Die Weekly Challenge bringt oft mehrere Punkte und ist schnell erledigt, wenn du das richtige Fahrzeug nutzt."
   },
   {
     "category": "Photo Challenge",
@@ -25,18 +25,53 @@
     "body": "Markiere seltene Fahrzeuge als Favoriten, damit du sie bei Events schneller findest."
   },
   {
+    "category": "Garage",
+    "title": "Wunschliste nutzen",
+    "body": "Lege fehlende Autos auf die Wunschliste, damit du sie bei Saisonbelohnungen oder im Forzathon Shop schneller erkennst."
+  },
+  {
+    "category": "Credits",
+    "title": "Auktionshaus vergleichen",
+    "body": "Vergleiche Preise vor dem Kauf. Manche Fahrzeuge sind über Events oder Shop deutlich günstiger."
+  },
+  {
     "category": "Forzathon Shop",
     "title": "Punkte sparen",
     "body": "Kaufe zuerst exklusive Fahrzeuge. Kleidung und Wheelspins kommen meist wieder."
   },
   {
-    "category": "Rivals",
-    "title": "Saubere Runde zählt",
-    "body": "Für monatliche Rivals brauchst du meist nur eine saubere Runde."
+    "category": "Tuning",
+    "title": "Handling vor PS",
+    "body": "Auf technischen Strecken bringen Reifen, Bremsen und Gewicht oft mehr als reine Leistung."
+  },
+  {
+    "category": "Tuning",
+    "title": "Getriebe fein abstimmen",
+    "body": "Ein gut abgestimmtes Getriebe kann Beschleunigung und Topspeed deutlich verbessern."
+  },
+  {
+    "category": "Drift",
+    "title": "RWD bevorzugen",
+    "body": "Für Drift-Zonen sind Hecktriebler mit kontrollierbarer Leistung oft einfacher zu beherrschen."
   },
   {
     "category": "PR-Stunts",
     "title": "Anlauf verlängern",
     "body": "Bei Speed Traps und Danger Signs hilft ein langer gerader Anlauf oft mehr als maximales Tuning."
+  },
+  {
+    "category": "Rivals",
+    "title": "Saubere Runde zählt",
+    "body": "Für monatliche Rivals brauchst du meist nur eine saubere Runde, nicht zwingend eine Topzeit."
+  },
+  {
+    "category": "Multiplayer",
+    "title": "Konstant fahren",
+    "body": "Online gewinnt nicht immer das schnellste Auto, sondern oft der Fahrer mit den wenigsten Fehlern."
+  },
+  {
+    "category": "Events",
+    "title": "Eventtyp beachten",
+    "body": "Straßenrennen, Dirt und Cross Country brauchen unterschiedliche Fahrzeuge und Setups."
   }
 ]

@@ -4,19 +4,19 @@
     "body": "Die App lädt Saison, Playlist, Events, News, Tipps, Daily Challenges und Shop-Daten aus den Online-Dateien."
   },
   {
+    "title": "Admin-Oberfläche ergänzt",
+    "body": "Über admin.html kannst du JSON-Inhalte im Browser vorbereiten und anschließend auf GitHub hochladen."
+  },
+  {
     "title": "Saisonwechsel ohne App-Update",
     "body": "Wenn sich eine Saison ändert, musst du nur die JSON-Dateien auf GitHub Pages aktualisieren."
   },
   {
     "title": "Festival Playlist erweitert",
-    "body": "Weekly Challenge, Photo Challenge, Treasure Hunt und Forzathon Shop sind jetzt eigene Online-Datenbereiche."
-  },
-  {
-    "title": "Community-Funktionen vorbereitet",
-    "body": "Garagen teilen, Bewertungen und Profile sind vorbereitet, benötigen aber später ein echtes Firebase-Backend."
+    "body": "Weekly Challenge, Photo Challenge, Treasure Hunt und Forzathon Shop sind eigene Online-Datenbereiche."
   },
   {
     "title": "Premium vorbereitet",
-    "body": "Werbung entfernen, Käufe wiederherstellen und Premium-Vorteile sind als Struktur vorhanden. Die echte Billing-Anbindung folgt separat."
+    "body": "Werbung entfernen, Käufe wiederherstellen und Premium-Vorteile sind als Struktur vorhanden."
   }
 ]
